@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robin.W</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/16.7 bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header" style="background-color: black; color: aliceblue;">
-        <container>
+        <div class="container">
             <nav class="header__nav flex">
                 <a href="#" class="header-logo">
                     <img src="img/logo-white.png" alt="Robin.W logo" class="header-logo__img">
@@ -40,17 +41,20 @@
                     </li>
                 </ul>
             </nav>
-        </container>
+        </div><!--/container-->
+
     </header>
     <main class="main">
         <section class="section hero">
             <div class="container">
                 <div class="hero__content">
                     <h1 class="title hero__title">
-                        I&rsquo;m Robin Williams. A&nbsp;Product Designer based in&nbsp;Italy.
+                        I&rsquo;m Robin Williams. A Product Designer <span class="hero__span">based
+                            in Italy.</span>
                     </h1>
                     <p class="hero__descr lead">
-                        I&rsquo;m probably the most passionate designer you will ever get to&nbsp;work with. If&nbsp;you have a&nbsp;great project that needs some amazing skills, I&rsquo;m your guy.
+                        I&rsquo;m probably the most passionate designer you will ever get to work with. If you
+                        have a great project that needs some amazing skills, I&rsquo;m your guy.
                     </p>
                 </div>
             </div>
@@ -61,13 +65,58 @@
                     <h2 class="title experience__title">
                         work experience
                     </h2>
+                    <p class="experience__descr">
+                        Companies I have worked for in the past
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="experience__item experience-item">
+                                <div class="experience__number">
+                                    1
+                                </div>
+                                <h3 class="title experience-item__title">
+                                    <span class="experience__green">Google</span>, Interaction Designer
+                                </h3>
+                                <p class="text experience__text">
+                                    I currently am the lead designer on the interaction design team for Google Play. 
+                                </p>
+                            </div>
+                        </div><!--/col-md-4-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="experience__item experience-item">
+                                <div class="experience__number">
+                                    2
+                                </div>
+                                <h3 class="title experience-item__title">
+                                 <span class="experience__blue">Facebook</span>   , Product Designer
+                                </h3>
+                                <p class="text experience__text">
+                                    I&rsquo;ve worked on a wide variety of internal tools for facebook over the past 6 years.
+                                </p>
+                            </div>
+                        </div><!--/col-md-4-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="experience__item experience-item">
+                                <div class="experience__number">
+                                    3
+                                </div>
+                                <h3 class="title experience-item__title">
+                                    Dribbble, Graphic Designer
+                                </h3>
+                                <p class="text experience__text">
+                                    I started my design career with Dribbble. I was incharge of creating illustrations for the platform.
+                                </p>
+                            </div>
+                        </div><!--/col-md-4-->
+                    </div><!--/row-->
                 </div>
             </div>
         </section>
+
         <section id="work" class="section work">
 
         </section>
-        <section id="photography"  class="section photography">
+        <section id="photography" class="section photography">
 
         </section>
         <section id="contact" class="section contact">
