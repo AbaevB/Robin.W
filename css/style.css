@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+body {
+    font-family: "Sen", sans-serif;
+}
+
+a   {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.project {
+    column-count: 2;
+    column-gap: 10px;
+  }
+  
+  .project-item {
+    margin-bottom: 10px;
+    break-inside: avoid;
+    border: 1px solid #5221e6;
+  }
+
+  .project-item_first, .project-item_last   {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-item img {
+    width: 100%;
+    display: block;
+    
+  }
+
+  .project-item_first, .project-item_last{
+    height: 100px;
+  }
+
+figure  {
+    width: 100%;
+}
+
+.tab    {
+    width: 100%;
+}
+
+.tab-btn    {
+ padding: 15px 15px;
+ border-radius: 0;
+ font-weight: 700;
+ text-transform: uppercase;
+ color: aliceblue;
+ background-color: black;
+ border-color: aliceblue;
+cursor: pointer;
+}
+
+.tab-btn-active {
+    background-color: #5221e6;
+  }
+
+  .tab-pane:not(.tab-pane-show) {
+    display: none;
+  }
+
+  .contact__form    {
+    flex-direction: column;
+  }
