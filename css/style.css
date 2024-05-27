@@ -13,3 +13,22 @@ img {
     max-width: 100%;
 }
 
+.project {
+    column-count: 2;
+    column-gap: 10px;
+  }
+  
+  .project-item {
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  .project-item img {
+    width: 100%;
+    display: block;
+  }
+
+  .project-item_first, .project-item_last{
+    height: 100px;
+  }
+
