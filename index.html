@@ -414,7 +414,7 @@
                     MY PROJECTS
                 </h2>
                 <div class=" project">
-                    <div class=" project-item  project-item_first">
+                    <div class=" project-item  project-item_first d-flex">
                         <span class="work__descr">
                             Work that I&rsquo;ve done for the past 8 years
                         </span>
@@ -467,7 +467,7 @@
                             </p>
                         </div>
                     </div><!--/ project-item-->
-                    <div class=" project-item  project-item_last">
+                    <div class=" project-item  project-item_last d-flex">
                         <button class="work__btn">
                             VIeW ALL PROJECTS
                         </button>
@@ -737,12 +737,49 @@
             </div><!--/container-->
         </section>
         <section id="contact" class="section contact">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="contact__content">
+                            <h2 class="title contact__title">
+                                Let&rsquo;s get started
+                            </h2>
+                            <p class="descr contacts__descr">
+                                Now that you know a lot about me, let me know if you are interested to work with me.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="contact__right">
+                            <form method="post" action="https://jsonplaceholder.typicode.com/posts"
+                                class="contact__form contact-form d-flex">
+                                <label for="#name">
+                                    Name</label>
+                                    <input type="text" name="username" id="name" required placeholder="Your Name">
+                                
+                                <label for="#email">
+                                    Email</label>
+                                    <input type="email" name="useremail" id="email" required placeholder="Your email">
+                                <label for="#message">
+                                    Message</label>
+                                    <textarea name="message" id="message" required placeholder="Enter your message"></textarea>
+                                    <label for="#check"><input type="checkbox" name="check" id="check" required>I consent to the processing of personal data</label>
+                                    
+                                <button class="contact-form__btn" type="submit" >
+                                    Let&rsquo;s get started
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div><!--/row-->
+            </div><!--/container-->
         </section>
     </main>
     <footer class="footer">
         <div class="container">
+            <div class="row">
 
+            </div><!--/row-->
         </div><!--/container-->
     </footer>
     <script src="js/main.js"></script>

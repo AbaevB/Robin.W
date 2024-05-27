@@ -21,11 +21,18 @@ img {
   .project-item {
     margin-bottom: 10px;
     break-inside: avoid;
+    border: 1px solid #5221e6;
+  }
+
+  .project-item_first, .project-item_last   {
+    justify-content: center;
+    align-items: center;
   }
   
   .project-item img {
     width: 100%;
     display: block;
+    
   }
 
   .project-item_first, .project-item_last{
@@ -59,3 +66,6 @@ cursor: pointer;
     display: none;
   }
 
+  .contact__form    {
+    flex-direction: column;
+  }
