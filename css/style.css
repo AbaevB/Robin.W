@@ -69,3 +69,18 @@ cursor: pointer;
   .contact__form    {
     flex-direction: column;
   }
+
+
+/*---readmore---*/
+
+#more {display: none;}
+
+#moreBtn    {
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 0;
+  border: 1px solid aliceblue;  
+}

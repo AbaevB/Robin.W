@@ -1,3 +1,20 @@
+function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("moreBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "See all testimonials"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "View less testimonials"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
 const showTab = (elTabBtn) => {
   const elTab = elTabBtn.closest('.tab');
   if (elTabBtn.classList.contains('tab-btn-active')) {
@@ -22,3 +39,5 @@ document.addEventListener('click', (e) => {
   const elTabBtn = e.target.closest('.tab-btn');
   showTab(elTabBtn);
 });
+
+
