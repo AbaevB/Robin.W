@@ -10,7 +10,7 @@ a   {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .project {
@@ -30,5 +30,32 @@ img {
 
   .project-item_first, .project-item_last{
     height: 100px;
+  }
+
+figure  {
+    width: 100%;
+}
+
+.tab    {
+    width: 100%;
+}
+
+.tab-btn    {
+ padding: 15px 15px;
+ border-radius: 0;
+ font-weight: 700;
+ text-transform: uppercase;
+ color: aliceblue;
+ background-color: black;
+ border-color: aliceblue;
+cursor: pointer;
+}
+
+.tab-btn-active {
+    background-color: #5221e6;
+  }
+
+  .tab-pane:not(.tab-pane-show) {
+    display: none;
   }
 
