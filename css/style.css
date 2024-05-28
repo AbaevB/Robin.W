@@ -16,6 +16,7 @@ html    {
    --text: #fff;
    --primary: #5221e6;
    --customgreen: #3cc74e;
+   --customblue: #609bff;
    --custompink: #e95d90;
    --custompeach: #fff3e4;
    --customviolet: #fbe4ff;
@@ -52,6 +53,10 @@ img {
     list-style: none;
 }
 
+.text   {
+    font-size: 16px;
+}
+
 /*------------------------header------------------------*/
 .header {
     position: relative;
@@ -71,9 +76,6 @@ img {
     /*padding: 32px 24px;*/
 }
 
-.header__item   {
-     
-}
 
 .header__link {
     /*display: block;*/
@@ -125,6 +127,56 @@ img {
     font-size: 18px;
     line-height: 27px;
 }
+
+
+/*------------------------experience------------------------*/
+
+.experience {
+   padding-top: 120px;
+   padding-bottom: 114px; 
+}
+
+.experience__title  {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: var(--lgrey);
+}
+
+.experience__descr  {
+    width: 70%;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.experience__number {
+    font-size: 117px;
+    color: var(--dgrey);
+}
+
+.experience-item__title {
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+.experience__green  {
+    color: var(--customgreen);
+}
+
+.experience__blue   {
+    color: var(--customblue);
+}
+
+.experience__pink   {
+    color: var(--custompink);
+}
+
+.experience__text   {
+    line-height: 24px;
+    color: var(--lgrey);
+}
+
+
 
 
 .project {
