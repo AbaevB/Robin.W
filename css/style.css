@@ -13,6 +13,7 @@ html    {
    --level-1: #181823;
    --lgrey: #deecf9;
    --dgrey: #c7e0f4;
+   --stronggrey: #5b6876;
    --text: #fff;
    --primary: #5221e6;
    --customgreen: #3cc74e;
@@ -176,7 +177,45 @@ img {
     color: var(--lgrey);
 }
 
+/*------------------------philocophy------------------------*/
 
+.philosophy {
+    background-color: var(--text);
+    color: var(--base);
+}
+
+.philosophy__content    {
+  padding-top: 120px;  
+}
+
+.philosophy__title  {
+    margin-bottom: 24px;
+    font-size: 55px;
+}
+
+.philosophy__text   {
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 27px;
+color: var(--stronggrey);
+}
+
+.philosophy__link   {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--level-1);
+    text-decoration: underline;
+    transition: color 0.3ms ease-in-out;
+}
+
+.philosophy__link:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.philosophy__figure {
+    margin: 0;
+}
 
 
 .project {
