@@ -6,57 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robin.W</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/16.7 bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="header" style="background-color: black; color: aliceblue;">
-        <div class="container">
-            <nav class="header__nav flex">
-                <a href="#" class="header-logo">
-                    <img src="img/logo-white.png" alt="Robin.W logo" class="header-logo__img">
+    <header class="header" >
+        
+            <nav class="navbar navbar-expand-md navbar-dark ">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-white.png" alt="Robin.W Logo">
                 </a>
-                <ul class="nav-list list-reset flex">
-                    <li class="nav-list__item">
-                        <a href="#experience" class="nav-list__link">
-                            Experience
-                        </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item header__item">
+                      <a class="nav-link header__link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-list__item">
-                        <a href="#work" class="nav-list__link">
-                            Work
-                        </a>
+                    <li class="nav-item header__item">
+                      <a class="nav-link header__link" href="#experience"> Experience</a>
                     </li>
-                    <li class="nav-list__item">
-                        <a href="#photogrphy" class="nav-list__link">
-                            Photography
-                        </a>
-                    </li>
-                    <li class="nav-list__item">
-                        <a href="#contact" class="nav-list__link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div><!--/container-->
-
+                    <li class="nav-item header__item">
+                        <a class="nav-link header__link" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item header__item">
+                        <a class="nav-link header__link" href="#photography">Photography</a>
+                      </li>
+                      <li class="nav-item header__item">
+                        <a class="nav-link header__link" href="#contact">Contact</a>
+                      </li>
+                      
+                    
+                    
+                  </ul>
+                 
+                </div>
+              </nav>
+        
     </header>
     <main class="main">
         <section class="section hero">
             <div class="container">
-                <div class="hero__content">
-                    <h1 class="title hero__title">
-                        I&rsquo;m Robin Williams. A Product Designer <span class="hero__span">based
-                            in Italy.</span>
-                    </h1>
-                    <p class="hero__descr lead">
-                        I&rsquo;m probably the most passionate designer you will ever get to work with. If you
-                        have a great project that needs some amazing skills, I&rsquo;m your guy.
-                    </p>
-                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+
+                    </div><!--/col-->
+                    <div class="col-lg-8">
+                        <div class="hero__content">
+                            <h1 class="title hero__title">
+                                I&rsquo;m Robin Williams.<br> A Product Designer <span class="hero__span">based
+                                    in Italy.</span>
+                            </h1>
+                            <p class="hero__descr lead">
+                                I&rsquo;m probably the most passionate designer you will ever get to work with. If you
+                                have a great project that needs some amazing skills, I&rsquo;m your guy.
+                            </p>
+                        </div>
+                    </div>
+                </div><!--/row-->
+                
             </div>
         </section>
         <section id="experience" class="section experience">
@@ -544,9 +557,9 @@
                                 See all testimonials
                             </button>
 
-                                
-                                
-                            
+
+
+
                         </div><!--/testimonials__left-->
 
                     </div><!--/col-->
@@ -580,7 +593,8 @@
                                     </div><!--/testimonials-card__top-->
                                     <div class="card-bottom testimonials-card__bottom">
                                         <blockquote class="testimonials__quote">
-                                            I think Robin has an incredible gift. It has been an absolute pleasure to work
+                                            I think Robin has an incredible gift. It has been an absolute pleasure to
+                                            work
                                             with a designer of this caliber.
                                         </blockquote>
                                         <p class="testimonials__autor">
@@ -597,8 +611,10 @@
                                     </div><!--/testimonials-card__top-->
                                     <div class="card-bottom testimonials-card__bottom">
                                         <blockquote class="testimonials__quote">
-                                            All I can say that, Robin is a phenomenal designer. The wavelength at which he
-                                            thinks is astoundaing. I love the focus, passion and attention to detial in the
+                                            All I can say that, Robin is a phenomenal designer. The wavelength at which
+                                            he
+                                            thinks is astoundaing. I love the focus, passion and attention to detial in
+                                            the
                                             design.
                                         </blockquote>
                                         <p class="testimonials__autor">
@@ -610,7 +626,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div><!--/testimonials__right-->
                     </div><!--/col-->
                 </div><!--/row-->
@@ -862,12 +878,21 @@
                         <small class="footer__copy">
                             &COPY; Андрей Баев, 2024
                         </small>
-                        
+
                     </div>
                 </div>
             </div><!--/row-->
         </div><!--/container-->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/423e8dec2d.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
