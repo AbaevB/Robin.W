@@ -251,13 +251,13 @@ color: var(--stronggrey);
 /*------------------------partners------------------------*/
 
 .partners__group    {
-    flex-wrap: wrap;
+    overflow-y: hidden;
     min-width: 100%;
 }
 
 
 .partners__item {
-    width: 33.3%;
+    min-width: 33.3%;
     justify-content: center;
     align-items: center;
     height: 140px;
@@ -402,6 +402,44 @@ figure  {
     color: var(--primary);
     text-decoration: none;
 }
+
+/*------------------------dribbble------------------------*/
+
+.dribbble   {
+   padding-top: 120px;
+   padding-bottom: 120px; 
+}
+
+.dribble__top   {
+   margin-bottom: 120px; 
+}
+
+.dribbble__title    {
+    font-size: 55px;
+    line-height: 66.7px;
+    margin-bottom: 24px;
+}
+
+.dribbble__text {
+    margin-bottom: 40px;
+    max-width: 636px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.dribbble__link {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.dribbble__link:hover   {
+    color: var(--primary);
+}
+
+
+
 
 .tab    {
     width: 100%;
