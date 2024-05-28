@@ -217,6 +217,107 @@ color: var(--stronggrey);
     margin: 0;
 }
 
+/*------------------------skill------------------------*/
+
+.skillset {
+  padding-top: 120px;
+  padding-bottom: 120px;  
+}
+
+.skillset__card     {
+    height: 100%;
+    background-color: var(--base);
+}
+
+.skillset-card__header    { 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.skillset-card__body    {
+    padding-top: 10px;
+}
+
+.skillset-card__title   {
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.skillset-card__text    {
+    line-height: 24px;
+    color: #8491a0;
+}
+
+/*------------------------partners------------------------*/
+
+.partners__group    {
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+
+
+.partners__item {
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-color: var(--base);
+    border: 1px solid var(--lgrey);
+}
+
+.partners__item:first-child {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.partners__item:last-child  {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.list-group-horizontal>.list-group-item+.list-group-item    {
+    border-left-width: 1px;
+} /*****переопределение стиля Bootstrap
+
+
+
+/*------------------------work------------------------*/
+
+.work   {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.work__title    {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: var(--lgrey);
+    text-transform: uppercase;
+} 
+
+.work__descr    {
+   font-size: 55px; 
+   font-weight: 700;
+   line-height: 66px;
+}
+
+.work__btn  {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: uppercase;
+    border: 1px solid var(--primary);
+    border-radius: 0;
+    transition: background-color 0.3s ease-out;
+}
+
+
+.work__btn:hover    {
+    color: var(--text);
+    background-color: var(--primary);
+}
 
 .project {
     column-count: 2;
@@ -224,14 +325,12 @@ color: var(--stronggrey);
   }
   
   .project-item {
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     break-inside: avoid;
-    border: 1px solid #5221e6;
   }
 
   .project-item_first, .project-item_last   {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   
   .project-item img {
@@ -240,12 +339,68 @@ color: var(--stronggrey);
     
   }
 
+  .project-item__content    {
+    padding: 20px;
+    background-color: var(--level-1);
+  }
+
+  .project-item__title  {
+    margin-bottom: 13px;
+    font-size: 24px;
+    line-height: 36ph;
+  }
+
+  .project-item__text   {
+    font-size: 18px;
+    line-height: 27px;
+    color: #8491a0;
+  }
+
   .project-item_first, .project-item_last{
     height: 100px;
   }
 
 figure  {
+    margin: 0;
     width: 100%;
+}
+
+/*------------------------inst------------------------*/
+
+.inst   {
+    color: var(--stronggrey);
+    font-size: 0;
+    background-color: var(--text) ;
+}
+
+.inst__content  {
+    padding-top: 120px;
+}
+
+.inst__title    {
+    margin-bottom: 24px;
+    font-size: 55px;
+    line-height: 66.7px;
+    color: var(--base);
+}
+
+.inst__text {
+    margin-bottom: 24px;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--stronggrey); 
+}
+
+.inst__link {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.inst__link:hover {
+    color: var(--primary);
+    text-decoration: none;
 }
 
 .tab    {
