@@ -543,27 +543,18 @@ figure {
 }
 
 
-.tab {
-    width: 100%;
+.photography__link  {
+    border: 1px solid var(--dgrey) !important;
+    border-radius: 0 !important;
 }
 
-.tab-btn {
-    padding: 15px 15px;
-    border-radius: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: aliceblue;
-    background-color: black;
-    border-color: aliceblue;
-    cursor: pointer;
-}
+.photography__link:hover    {
+    color: var(--text);
+    background-color: var(--stronggrey);
+} 
 
-.tab-btn-active {
-    background-color: #5221e6;
-}
-
-.tab-pane:not(.tab-pane-show) {
-    display: none;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+    background-color: var(--primary) !important;
 }
 
 .contact__form {
