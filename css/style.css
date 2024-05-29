@@ -578,9 +578,56 @@ figure {
     background-color: var(--primary) !important;
 }
 
+/*------------------------contact------------------------*/
+
+.contact    {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact__title {
+    margin-bottom: 24px;
+    font-size: 55px;
+    line-height: 66.7px;
+}
+
+.contact__descr {
+    font-size: 18px;
+    line-height: 27px;
+    color: #8491a0;
+}
+
 .contact__form {
     flex-direction: column;
 }
 
+.contact-form__item {
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: var(--level-1);
+    border: none;
+    outline: none;
+}
 
-/*---readmore---*/
+.contact-form__textarea {
+    height: 100px;
+    margin-bottom: 40px;
+    background-color: var(--level-1);
+    border: none;
+    outline: none;
+}
+
+.contact-form__btn  {
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 75px;
+color: var(--text);
+background-color: var(--primary);
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.contact-form__btn:hover    {
+    color: var(--primary);
+    background-color: var(--text) ;
+}
